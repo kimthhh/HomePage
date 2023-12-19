@@ -1,0 +1,188 @@
+
+.menu-button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  color: #005490;
+  background-color: transparent;
+}
+
+.menu-button:active,
+.menu-button:focus {
+  color: white;
+  background-color: #005490;
+}
+
+.menu-button-clicked {
+  color: white;
+  background-color: #005490;
+  border: none;
+  border-radius: 5px;
+}
+
+.home-read-more-btn {
+  padding: 10px 20px;
+  background-color: #005490;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 0px 4px #005490;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.home-read-more-btn:hover {
+  background-color: white;
+  color: #005490;
+}
+
+.contact-us-btn {
+  background-color: #ffffff;
+  color: #005490;
+  border: 2px solid #005490;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.contact-us-btn:hover {
+  background-color: #005490;
+  color: #ffffff;
+  border-color: #005490;
+  outline: none;
+}
+
+.contact-us-btn2 {
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #ffffff;
+  color: #A0A0A0;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 2px solid #A0A0A0;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.contact-us-btn2::placeholder {
+  color: #A0A0A0;
+  font-style: italic;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+}
+
+.memo-white {
+  overflow: hidden !important;
+  user-select: none;
+  background-color: transparent !important;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 0px transparent !important;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.memo-white:focus {
+  outline: none;
+}
+
+.memo-gray {
+  overflow: hidden !important;
+  user-select: none;
+  background-color: transparent !important;
+  color: #808080;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 0px transparent !important;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.memo-gray:focus {
+  outline: none;
+}
+
+.memo-gray-16 {
+  overflow: hidden !important;
+  user-select: none;
+  background-color: transparent !important;
+  color: #808080;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 0px transparent !important;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.memo-gray-16:focus {
+  outline: none;
+}
+
+.memo-black-17 {
+  overflow: hidden !important;
+  user-select: none;
+  background-color: transparent !important;
+  color: #808080;
+  font-weight: normal;
+  font-family: Segoe UI, sans-serif;
+  border: 0px transparent !important;
+  border-radius: 5px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.memo-black-17:focus {
+  outline: none;
+}
+
+.contact-us-send-message-btn {
+  background-color: #005490;
+  color: white;
+  border: 1px solid #005490;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 0px 4px #005490;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-us-send-message-btn:hover {
+  background-color: white;
+  color: #000000;
+}
+
